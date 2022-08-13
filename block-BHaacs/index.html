@@ -18,6 +18,9 @@
     <header>
         <div class="container header">
             <a href="#">TrackL</a>
+            <input type="checkbox" name="checkbox" id="toggle">
+            <label for="toggle"><i class="fas fa-bars"></i></label>
+
             <nav>
                 <ul>
                     <li><a href="#">Features</a></li>
@@ -34,86 +37,92 @@
             <div class="container">
                 <h1>Track The Learning <br> Process Schedule</h1>
                 <div class="button"><a href="#">Get 30 Days Trial</a></div>
+                <div class="hero-img-container">
+                    <div><img src="/assets/hero.png" alt="hero"></div>
+                </div>
             </div>
 
         </section>
         <section class="container">
-            <div class="flex downloads">
-                <a href="#.pdf">PDF FILE</a>
-                <a href="#.doc">WORD FILE</a>
-                <a href="#.jpg">IMAGE FILE</a>
-                <a href="#.mp4">VIDEO FILE</a>
+            <div class="flex sm-wrap downloads">
+                <a class="sm-flex-50" href="#.pdf">PDF FILE</a>
+                <a class="sm-flex-50" href="#.doc">WORD FILE</a>
+                <a class="sm-flex-50" href="#.jpg">IMAGE FILE</a>
+                <a class="sm-flex-50" href="#.mp4">VIDEO FILE</a>
             </div>
             <hr>
         </section>
         <section class="container">
-            <article class="flex learning">
-                <div>
+            <article class="flex learning sm-wrap">
+                <div class="sm-flex-100">
                     <h2>Monitor Your Learning <br> And Improve It</h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
                         live the blind texts</p>
                     <button class="learn-more"><a href="#">Learn More</a></button>
 
                 </div>
-                <img src="/assets/learning-graph.png" alt="learning-graph">
+                <img class="sm-flex-100" src="/assets/learning-graph.png" alt="learning-graph">
             </article>
         </section>
         <section class="container score">
             <h2>WEEKLY SCORE</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th scope="col">Days</th>
-                        <th scope="col">Course</th>
-                        <th scope="col">Score(0-100)</th>
-                        <th scope="col">Hours Spent</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Monday</td>
-                        <td>Product Design</td>
-                        <td>40</td>
-                        <td>2 Hour 30 Min</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>Product Design</td>
-                        <td>60</td>
-                        <td>3 Hour 20 Min</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday</td>
-                        <td>Data Science</td>
-                        <td>20</td>
-                        <td>1 Hour 30 Min</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday</td>
-                        <td>UI Design</td>
-                        <td>60</td>
-                        <td>2 Hour 20 Min</td>
-                    </tr>
-                    <tr>
-                        <td>Friday</td>
-                        <td>UX Design</td>
-                        <td>30</td>
-                        <td>2 Hour 30 Min</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>Data science</td>
-                        <td>50</td>
-                        <td>2 Hour 40 Min</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td>
-                        <td>HTML & CSS</td>
-                        <td>70</td>
-                        <td>3 Hour 30 Min</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Days</th>
+                            <th scope="col">Course</th>
+                            <th scope="col">Score(0-100)</th>
+                            <th scope="col">Hours Spent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>Product Design</td>
+                            <td>40</td>
+                            <td>2 Hour 30 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>Product Design</td>
+                            <td>60</td>
+                            <td>3 Hour 20 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>Data Science</td>
+                            <td>20</td>
+                            <td>1 Hour 30 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>UI Design</td>
+                            <td>60</td>
+                            <td>2 Hour 20 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>UX Design</td>
+                            <td>30</td>
+                            <td>2 Hour 30 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>Data science</td>
+                            <td>50</td>
+                            <td>2 Hour 40 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>HTML & CSS</td>
+                            <td>70</td>
+                            <td>3 Hour 30 Min</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
         </section>
         <section class="price container">
             <h2>Join Us And Let's study <br> With Your Friends</h2>
@@ -126,8 +135,8 @@
                 </div>
                 <span>Yearly</span>
             </div>
-            <div class="price-card flex">
-                <div>
+            <div class="price-card flex sm-wrap">
+                <div class="sm-flex-100">
                     <h3>Basic</h3>
                     <p>It is a long established fact that a reader will be distracted by a readable</p>
                     <strong>48</strong>
@@ -142,7 +151,7 @@
                     </ul>
                     <button class="get-started"><a href="#">Get Started</a></button>
                 </div>
-                <div>
+                <div class="sm-flex-100">
                     <h3>Most Popular</h3>
                     <p>It is a long established fact that a reader will be distracted by a readable</p>
                     <strong>58</strong><span>Month</span>
@@ -164,17 +173,17 @@
             </div>
         </section>
     </main>
-    <footer class="flex container">
-        <div>
+    <footer class="flex sm-wrap container">
+        <div class="sm-flex-50">
             <h3>TrackL</h3>
-            <p>Far far away, behind the word mountains,far from the.</p>
+            <p>Far far away, behind the word <br> mountains,far from the.</p>
             <div class="flex icon-container">
                 <span class="flex icons"><a href="#"><i class="fab fa-facebook-f"></i></a></span>
                 <span class="flex icons"><a href="#"><i class="fab fa-twitter"></i></a></span>
                 <span class="flex icons"><a href="#"><i class="fab fa-instagram"></i></a></span>
             </div>
         </div>
-        <div>
+        <div class="sm-flex-50">
             <h4>Features</h4>
             <ul>
                 <li><a href="#">Calendar</a></li>
@@ -183,7 +192,7 @@
                 <li><a href="#">Schedule</a></li>
             </ul>
         </div>
-        <div>
+        <div class="sm-flex-50">
             <h4>Support</h4>
             <ul>
                 <li><a href="#">About Us</a></li>
@@ -192,7 +201,7 @@
                 <li><a href="#">Security</a></li>
             </ul>
         </div>
-        <div>
+        <div class="sm-flex-50">
             <h4>Contact</h4>
             <ul>
                 <li>
